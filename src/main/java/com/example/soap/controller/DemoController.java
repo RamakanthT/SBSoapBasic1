@@ -35,8 +35,7 @@ public class DemoController {
 		System.out.println("in getEmployeeById method");
 		if (id <= 3) {
 			EmployeeVO employee = new EmployeeVO(1, "Lokesh", "Gupta", "howtodoinjava@gmail.com");
-			//return new ResponseEntity<EmployeeVO>(employee, HttpStatus.OK);
-			
+			//return new ResponseEntity<EmployeeVO>(employee, HttpStatus.OK);	
 			 
 			
 					    return employee;
